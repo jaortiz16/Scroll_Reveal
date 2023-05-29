@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navbar-custom {
+   
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.505);
+    backdrop-filter: blur(10px);
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+    
+  }
+  .navbar-custom li {
+    opacity: .4;
+    font-size: 1.2rem;
+  }
+  .navbar-custom li:hover {
+    opacity: 1;
+    transition: .5s;
+  }
+  .navbar-custom .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar-custom .nav-link {
+    color: #fff;
+  }
+.navText{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+   transform: translateY(15px);
+   margin-left: 15px;
+   font-family: 'Comfortaa', cursive;
+   font-weight: bold;  
+}
+.container1{
+    background: rgb(0, 0, 0);
+    height: 101vh;
+    width: 50%;   
+    display: inline-block;
+    z-index: 5;
+
+}
+.container2{
+    background: rgb(0, 0, 0);
+    height: 101vh;
+    width: 50%;
+    float: right;   
+    z-index: 5;
+
+}
+.container-all{
+    overflow: hidden;
+    z-index: 8;
+}
+#my-text{
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 8.9rem;
+    /* margin-left: 15%; */
+    z-index: -1;
+    transform: translateY(168px);
+    transition: transform 2.5s;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: #000;
+    
+}
+.txt-1 {
+    position: absolute;
+    top: 25%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+   /* padding-right: 15%; */
+  }
+  #my-text2{
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 8.9rem;
+    /* margin-left: 35%; */
+    z-index: -1;
+    transform: translateY(168px);
+    transition: transform 2.5s;
+    
+    
+}
+.txt-2 {
+    position: absolute;
+    top: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  /*  padding-right: 18%; */
+  }
+
+.img-r2{
+    position: absolute;
+    top: 60%;
+    right: 6%;
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+}
+.img-r3{
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+}
+.img-r4{
+    position: absolute;
+    top: 13%;
+    right: 2%;
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+}
+.content-page{
+  width: 100%;
+  background: url(../img/fondo-div.jpg) no-repeat center center fixed ;
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(65,65,65,1) 100%); */
+  height: 100vh;
+  overflow: hidden;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+.tittle1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+
+html, body, .container1x, .panel{
+  height: 100vh
+}
+.container1x{
+  
+  width: 520% !important;
+  display: flex;
+  flex-wrap: nowrap;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.panel{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.c1{
+  width: 100%;
+  background: url(../img/fondo-uno.jpg) no-repeat center center fixed;
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(65,65,65,1) 100%); */
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.c2{
+  width: 100%;
+  background: url(../img/fondo-dos.jpg) no-repeat center center fixed;
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(65,65,65,1) 100%); */
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.c3{
+  width: 100%;
+  background: url(../img/fondo-tres.jpg) no-repeat center center fixed;
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(65,65,65,1) 100%); */
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.c4{
+  width: 100%;
+  background: url(../img/fondo-cuatro.jpg) no-repeat center center fixed;
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(65,65,65,1) 100%); */
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
+.c5{
+  width: 100%;
+  background: url(../img/fondo-cinco.jpg) no-repeat center center fixed;
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(65,65,65,1) 100%); */
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
